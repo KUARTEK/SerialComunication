@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Fevzi Çakmak\Desktop\Projem\src\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Fevzi Çakmak\Desktop\Projem\include\Daire.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fevzi Çakmak\Desktop\Projem\include\Dikdortgen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fevzi Çakmak\Desktop\Projem\include\setgetdeneme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fevzi Çakmak\Desktop\Projem\include\Kare.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fevzi Çakmak\Desktop\Projem\include\Sekiller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Fevzi Çakmak\Desktop\Projem\include\Ucgen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Fevzi Çakmak\Desktop\Projem\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{69ED4C77-E3C3-35F0-9A69-6A14C41B6FFC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A6FF9052-A3F1-3EBC-A091-20D4B387E40B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

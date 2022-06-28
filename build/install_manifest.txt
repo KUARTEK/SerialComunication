@@ -1,0 +1,8 @@
+C:/Program Files (x86)/BasictProject/bin/BasictProject.exe
+C:/Program Files (x86)/BasictProject/src/Main.cpp
+C:/Program Files (x86)/BasictProject/include/Daire.h
+C:/Program Files (x86)/BasictProject/include/Dikdortgen.h
+C:/Program Files (x86)/BasictProject/include/setgetdeneme.h
+C:/Program Files (x86)/BasictProject/include/Kare.h
+C:/Program Files (x86)/BasictProject/include/Sekiller.h
+C:/Program Files (x86)/BasictProject/include/Ucgen.h

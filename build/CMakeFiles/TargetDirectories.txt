@@ -1,0 +1,4 @@
+C:/Users/Fevzi Çakmak/Desktop/Projem/build/CMakeFiles/BasictProject.dir
+C:/Users/Fevzi Çakmak/Desktop/Projem/build/CMakeFiles/INSTALL.dir
+C:/Users/Fevzi Çakmak/Desktop/Projem/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Fevzi Çakmak/Desktop/Projem/build/CMakeFiles/ZERO_CHECK.dir
