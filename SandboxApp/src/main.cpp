@@ -5,6 +5,12 @@
 
 using namespace std;
 
+#define MAX_BUFFER_SIZE 255
+uint8_t incoming_data[MAX_BUFFER_SIZE];
+
+const char* com = "COM3";
+const long BaudRate = 9600;
+
 int main()
 {
 	/*
@@ -26,9 +32,30 @@ int main()
 
 	5. Add function that closes open port
 	*/
+	
+	SerialModule::SerialPort Logs;
+	SerialModule::SerialPort Ports;
 
+	Logs.InitSpdLog();
+	Ports.GetAvailablePorts();
+	SerialModule::SerialPort port(com, BaudRate);
 
+    
 
+	std::string data = "Hello from computer";
+	port.WriteData(data.c_str());
 
+	if (port.IsConnected())
+	{
+		port.ReceiveData(incoming_data, MAX_BUFFER_SIZE);
+		spdlog::info("Received data from {}: {}", com , incoming_data);
+	}
+
+	port.CloseSerialPort(com);
+
+	if (port.IsConnected())
+	{
+		spdlog::warn("{} still open", com);
+	}
 
 }
